@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3345033871878035662
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 945421058678857910, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_animation
+      value: 
+      objectReference: {fileID: 7874918600113460962}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042386902137869189, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6593460882592774908, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f50fdcf4aa2be6a489f90afaf49a75f6, type: 3}
+    - target: {fileID: 7927825800777681783, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_Name
+      value: NurseSnippet1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_playOnEnable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_value.<Id>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_value.<Name>k__BackingField
+      value: NurseSnippet1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_value.<Text>k__BackingField
+      value: "I noticed the lab change too, and his oxygen saturation dipped overnight
+        before coming back up. It wasn\u2019t dramatic, but it didn\u2019t look like
+        a monitor error either."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_value.<Sound>k__BackingField
+      value: 
+      objectReference: {fileID: 8300000, guid: f50fdcf4aa2be6a489f90afaf49a75f6, type: 3}
+    - target: {fileID: 8045659150639517358, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_value.<Animation>k__BackingField
+      value: 
+      objectReference: {fileID: 9101576053795863099, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+    - target: {fileID: 8299151308684868372, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_text
+      value: "I noticed the lab change too, and his oxygen saturation dipped overnight
+        before coming back up. It wasn\u2019t dramatic, but it didn\u2019t look like
+        a monitor error either."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299151308684868372, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 10.15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7633852332634742766, guid: fbcc40e91526859428bab09db558e208,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4401155094674648893}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbcc40e91526859428bab09db558e208, type: 3}
+--- !u!4 &5159742903316875040 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7633852332634742766, guid: fbcc40e91526859428bab09db558e208,
+    type: 3}
+  m_PrefabInstance: {fileID: 3345033871878035662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5525602324999927610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5159742903316875040}
+    m_Modifications:
+    - target: {fileID: -4511874585836733209, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_Name
+      value: animation_SNP(Clone)
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.006684467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: -0.17998546
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.027359962
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.3363074
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.96630853
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015376216408502994, guid: 0352dc11e3ee02c41b505f818046f2d3,
+        type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.37153172
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -6485227766405304341, guid: 0352dc11e3ee02c41b505f818046f2d3,
+    type: 3}
+--- !u!4 &4401155094674648893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1028253153662150649, guid: 0352dc11e3ee02c41b505f818046f2d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5525602324999927610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &7874918600113460962 stripped
+Animation:
+  m_CorrespondingSourceObject: {fileID: -6780249814651084328, guid: 0352dc11e3ee02c41b505f818046f2d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 5525602324999927610}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,48 @@
+{
+    "metadata": {
+        "id": "019d0057-516c-7919-a75c-d7f6cbdca9c6",
+        "name": "Make a snippet of a medieval warrior talking ",
+        "snippetset_export_name": "019d0057-516c-7919-a75c-d7f6cbdca9c6-make-a-snippet-of-a-medieval-warrior-talking",
+        "description": "",
+        "version": 0,
+        "thumbnail_path": "thumbnail.png"
+    },
+    "snippets": [
+        {
+            "id": "019d0057-5177-7969-acca-9bccbd604e16",
+            "order": 1,
+            "name": "[determined] Ah, my friend, my adventures beg",
+            "snippet_export_name": "1-determined-ah-my-friend-my-adventures-beg",
+            "text": "[determined] Ah, my friend, my adventures began on a misty dawn when I first picked up my sword. [reflective] Through countless battles, I have faced fierce enemies and witnessed the chaos of medieval warfare. [confident] Each victory and defeat has shaped me into the warrior I am today, eager to share tales of bravery and cunning. [proud] There's nothing quite like the thrill of defending my homeland and standing tall amidst the chaos of battle.",
+            "sound_file_path": "1-determined-ah-my-friend-my-adventures-beg/audio.wav",
+            "animation_file_path": "1-determined-ah-my-friend-my-adventures-beg/animation.glb"
+        },
+        {
+            "id": "019d0057-5180-7e0d-8dc2-6bcb4f2b6352",
+            "order": 2,
+            "name": "[focused] One of my most memorable quests was",
+            "snippet_export_name": "2-focused-one-of-my-most-memorable-quests-was",
+            "text": "[focused] One of my most memorable quests was the defeat of a formidable band of marauding raiders. [excitedly] We ambushed them at dawn, fighting fiercely to protect our village. [determined] I led my men into the fray, our swords clashing amidst the chaos. [reflective] That day, I learned the true meaning of courage and the importance of brotherhood in arms.",
+            "sound_file_path": "2-focused-one-of-my-most-memorable-quests-was/audio.wav",
+            "animation_file_path": "2-focused-one-of-my-most-memorable-quests-was/animation.glb"
+        },
+        {
+            "id": "019d0057-5188-7c07-9e14-97061dba2c5f",
+            "order": 3,
+            "name": "[nostalgic] There was a time I journeyed into",
+            "snippet_export_name": "3-nostalgic-there-was-a-time-i-journeyed-into",
+            "text": "[nostalgic] There was a time I journeyed into the dark forest, seeking a legendary relic. [thoughtful] The path was treacherous, filled with unseen dangers and mythical beasts. [alert] I relied on my wits and bravery to survive, outsmarting the cunning traps set by ancient guardians. [proud] Finding that relic was a triumph that solidified my reputation among my peers.",
+            "sound_file_path": "3-nostalgic-there-was-a-time-i-journeyed-into/audio.wav",
+            "animation_file_path": "3-nostalgic-there-was-a-time-i-journeyed-into/animation.glb"
+        },
+        {
+            "id": "019d0057-518f-771d-ac40-165c7bebd660",
+            "order": 4,
+            "name": "[hopeful] Though the battles are fierce, I be",
+            "snippet_export_name": "4-hopeful-though-the-battles-are-fierce-i-be",
+            "text": "[hopeful] Though the battles are fierce, I believe the era of the medieval warrior is far from over. [inspired] With each challenge, I grow stronger, wiser, and more resilient. [optimistic] The stories I carry will inspire others to stand brave against any foe. [reflective] For in this age of knights and legends, a true warrior never gives up \u2014 he fights on, no matter the odds.",
+            "sound_file_path": "4-hopeful-though-the-battles-are-fierce-i-be/audio.wav",
+            "animation_file_path": "4-hopeful-though-the-battles-are-fierce-i-be/animation.glb"
+        }
+    ]
+}

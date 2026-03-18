@@ -1,0 +1,35 @@
+{
+    "metadata": {
+        "id": "019c32e8-ff5e-7bdd-b761-997bf3cdae2b",
+        "name": "[curious] I noticed the lab change too, and h",
+        "description": "",
+        "version": 0,
+        "thumbnail_path": "thumbnail.png"
+    },
+    "snippets": [
+        {
+            "id": "019c32e9-0099-7a5b-84c0-7e36e259ce6a",
+            "text": "[concerned] So you\u2019re thinking this might be cardiac instead of infectious? That would line up with the fluid signs and explain the oxygen fluctuation.",
+            "sound_file_path": "Snippet019c32e9-0099-7a5b-84c0-7e36e259ce6a/audio.wav",
+            "animation_file_path": "Snippet019c32e9-0099-7a5b-84c0-7e36e259ce6a/animation.glb"
+        },
+        {
+            "id": "019c32e9-00a9-76c7-998c-57afb72e854f",
+            "text": "[relieved] That actually makes a lot of sense given his history. I\u2019ll get the diuretics ready and set up close monitoring so we can see how he responds quickly.",
+            "sound_file_path": "Snippet019c32e9-00a9-76c7-998c-57afb72e854f/audio.wav",
+            "animation_file_path": "Snippet019c32e9-00a9-76c7-998c-57afb72e854f/animation.glb"
+        },
+        {
+            "id": "019c32e8-ff67-7510-9c3e-872bc0408c3e",
+            "text": "[curious] I noticed the lab change too, and his oxygen saturation dipped overnight before coming back up. It wasn\u2019t dramatic, but it didn\u2019t look like a monitor error either.",
+            "sound_file_path": "Snippet019c32e8-ff67-7510-9c3e-872bc0408c3e/audio.wav",
+            "animation_file_path": "Snippet019c32e8-ff67-7510-9c3e-872bc0408c3e/animation.glb"
+        },
+        {
+            "id": "019c32e9-00a0-78f6-a5bc-59b0ca8f229f",
+            "text": "[steady] [reassuring] You\u2019re doing fine, we\u2019re just double-checking everything and making sure we don\u2019t miss anything. We\u2019ll stay right here with you while the doctor checks the records.",
+            "sound_file_path": "Snippet019c32e9-00a0-78f6-a5bc-59b0ca8f229f/audio.wav",
+            "animation_file_path": "Snippet019c32e9-00a0-78f6-a5bc-59b0ca8f229f/animation.glb"
+        }
+    ]
+}

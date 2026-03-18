@@ -1,0 +1,35 @@
+{
+    "metadata": {
+        "id": "019c2eeb-8a0b-7bb7-b750-f53ca583f2b5",
+        "name": "[focused] His vitals look steady for now, but",
+        "description": "",
+        "version": 0,
+        "thumbnail_path": "thumbnail.png"
+    },
+    "snippets": [
+        {
+            "id": "019c2eeb-8a12-70c9-be3d-f17ab85e08cb",
+            "text": "[focused] His vitals look steady for now, but I don\u2019t like the direction of these labs at all. The white count is climbing, and that usually means something is brewing under the surface.",
+            "sound_file_path": "Snippet019c2eeb-8a12-70c9-be3d-f17ab85e08cb/audio.wav",
+            "animation_file_path": "Snippet019c2eeb-8a12-70c9-be3d-f17ab85e08cb/animation.glb"
+        },
+        {
+            "id": "019c2eeb-9311-7926-bb6e-5201fdc78a95",
+            "text": "[thoughtful] Exactly, and when I listened to his lungs, there was a hint of congestion. It\u2019s subtle, but paired with the labs, it makes me hesitant to rush straight to antibiotics.",
+            "sound_file_path": "Snippet019c2eeb-9311-7926-bb6e-5201fdc78a95/audio.wav",
+            "animation_file_path": "Snippet019c2eeb-9311-7926-bb6e-5201fdc78a95/animation.glb"
+        },
+        {
+            "id": "019c2eeb-943b-7034-8adc-4677396dcd1b",
+            "text": "[energized][confident] Alright, I checked his old echo, and there was mild dysfunction noted last year. Combined with today\u2019s findings, it fits better than an acute infection.",
+            "sound_file_path": "Snippet019c2eeb-943b-7034-8adc-4677396dcd1b/audio.wav",
+            "animation_file_path": "Snippet019c2eeb-943b-7034-8adc-4677396dcd1b/animation.glb"
+        },
+        {
+            "id": "019c2eeb-9433-7b1a-bcec-6dd4a3fcd0d8",
+            "text": "[decisive] Yes, and I want to confirm something in his previous imaging before we move. Give me a moment, I\u2019ll be right back",
+            "sound_file_path": "Snippet019c2eeb-9433-7b1a-bcec-6dd4a3fcd0d8/audio.wav",
+            "animation_file_path": "Snippet019c2eeb-9433-7b1a-bcec-6dd4a3fcd0d8/animation.glb"
+        }
+    ]
+}
