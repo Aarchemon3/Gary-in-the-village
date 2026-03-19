@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb2bed3d733f0c4a9df363059bd7fb9, type: 3}
+  m_Name: RpgppWarriorDirectorModeRecipe
+  m_EditorClassIdentifier: 
+  scenePath: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+  snippetFolder: {fileID: 102900000, guid: 8e43844846291704b8e19655cc3b4f96, type: 3}
+  actorDisplayName: Medieval Warrior
+  textDisplayMode: 1
+  createFirstPersonController: 1
+  playOnStart: 1
+  spawnNearObjectName: rpgpp_lt_building_02 (1)
+  spawnFacingObjectName: 
+  spawnFacingObjectPrefix: rpgpp_lt_terrain_path_01b
+  stops:
+  - label: Snippet 1
+    snippetIndex: 0
+    destinationObjectName: 
+    faceObjectName: 
+    sideGlanceObjectName: 
+    standDistance: 0.85
+    sideGlancePercent: 0
+  - label: Well
+    snippetIndex: 1
+    destinationObjectName: rpgpp_lt_well_01
+    faceObjectName: rpgpp_lt_bird_house_01
+    sideGlanceObjectName: rpgpp_lt_well_01
+    standDistance: 0.85
+    sideGlancePercent: 0.64
+  - label: Stones
+    snippetIndex: 2
+    destinationObjectName: rpgpp_lt_stones_01
+    faceObjectName: rpgpp_lt_well_01
+    sideGlanceObjectName: rpgpp_lt_stones_01
+    standDistance: 0.85
+    sideGlancePercent: 0.63
+  - label: Table
+    snippetIndex: 3
+    destinationObjectName: rpgpp_lt_table_01
+    faceObjectName: rpgpp_lt_stones_01
+    sideGlanceObjectName: rpgpp_lt_table_01
+    standDistance: 1.05
+    sideGlancePercent: 0.66
