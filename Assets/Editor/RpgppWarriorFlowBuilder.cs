@@ -20,7 +20,6 @@ public static class RpgppWarriorFlowBuilder
     const string RegistryName = "ActorRegistry";
     const string FlowName = "FlowController";
     const string GazeName = "GazeFlowController";
-    const string DelayedStartName = "DelayedFlowStarter";
     const string NavSurfaceName = "NavMeshSurface";
     const string PlayerRigName = "FirstPersonPlayer";
     const string PlayerCameraName = "PlayerCamera";
@@ -94,7 +93,6 @@ public static class RpgppWarriorFlowBuilder
             throw new InvalidOperationException($"Expected 4 warrior snippets, found {orderedSnippets.Count}.");
 
         var actor = EnsureActor(root.transform, orderedSnippets[0]);
-        ForceSnippetPlayerManualStart(actor);
         var idleClip = LoadAnimationClip(IdleClipPath, "M_Idle");
         var walkClip = LoadAnimationClip(WalkClipPath, "M_Walk");
         var navSurface = EnsureComponent<NavMeshSurface>(navSurfaceRoot.gameObject);
@@ -161,10 +159,7 @@ public static class RpgppWarriorFlowBuilder
 
         var flow = EnsureComponentOnChild<SnippetsFlowController>(root.transform, FlowName);
         ConfigureFlow(flow, registry);
-
-        var delayedStarter = EnsureComponentOnChild<DelayedSnippetsFlowStarter>(root.transform, DelayedStartName);
-        delayedStarter.flow = flow;
-        delayedStarter.delaySeconds = 2f;
+        RemoveLegacyDelayedStarter(root.transform);
 
         var gaze = EnsureComponentOnChild<SnippetsGazeFlowController>(root.transform, GazeName);
         ConfigureGaze(
@@ -221,6 +216,17 @@ public static class RpgppWarriorFlowBuilder
     static SnippetPlayer EnsureActor(Transform parent, SnippetPlayer sourcePrefab)
     {
         var actor = parent.Find(ActorName)?.GetComponent<SnippetPlayer>();
+        var needsRebuild =
+            actor == null ||
+            actor.Value == null ||
+            PrefabUtility.GetCorrespondingObjectFromSource(actor.gameObject) != sourcePrefab.gameObject;
+
+        if (needsRebuild && actor != null)
+        {
+            UnityEngine.Object.DestroyImmediate(actor.gameObject);
+            actor = null;
+        }
+
         if (actor == null)
         {
             var instance = PrefabUtility.InstantiatePrefab(sourcePrefab.gameObject, parent) as GameObject;
@@ -234,21 +240,6 @@ public static class RpgppWarriorFlowBuilder
         actor.gameObject.name = ActorName;
         Selection.activeObject = actor.gameObject;
         return actor;
-    }
-
-    static void ForceSnippetPlayerManualStart(SnippetPlayer actor)
-    {
-        if (actor == null)
-            return;
-
-        // Prevent the imported snippet prefab from auto-playing on enable before our delayed flow start kicks in.
-        var serializedObject = new SerializedObject(actor);
-        var playOnEnable = serializedObject.FindProperty("m_playOnEnable");
-        if (playOnEnable != null)
-        {
-            playOnEnable.boolValue = false;
-            serializedObject.ApplyModifiedPropertiesWithoutUndo();
-        }
     }
 
     static void ConfigureWalker(GameObject actorObject, SnippetsWalker walker, params Transform[] waypoints)
@@ -502,7 +493,7 @@ public static class RpgppWarriorFlowBuilder
     static void ConfigureFlow(SnippetsFlowController flow, SnippetsActorRegistry registry)
     {
         flow.registry = registry;
-        flow.playOnStart = false;
+        flow.playOnStart = true;
         flow.loopSequence = false;
         flow.autoProgress = true;
         flow.enableKeyboard = true;
@@ -520,6 +511,13 @@ public static class RpgppWarriorFlowBuilder
         };
 
         flow.EnsureStepGuids();
+    }
+
+    static void RemoveLegacyDelayedStarter(Transform root)
+    {
+        var delayedStart = root.Find("DelayedFlowStarter");
+        if (delayedStart != null)
+            UnityEngine.Object.DestroyImmediate(delayedStart.gameObject);
     }
 
     static void ConfigureGaze(
